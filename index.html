@@ -8,80 +8,86 @@
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
-<body>  
-  
-  <div class="nav">
-    <ul>
-      <li><a href="#" class="active" >Home</a></li>
-      <li><a href="#">Javascript</a></li>
-      <li><a href="#">Python</a></li>
-      <li><a href="#">Java</a></li>
-      <li><a href="#">PHP</a></li>
-    </ul>
-  </div>
+<body>
 
-  <div class="header">
-    <h1>Learn Programming</h1>
-  </div>
+  <header>
+    <div class="jumbotron">
+      <h1>Learn Programming</h1>
+      <p class="lobster">It's Time to Upgrade Your Coding Skill!</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#javascript">Javascript</a></li>
+        <li><a href="#python">Python</a></li>
+        <li><a href="#java">Java</a></li>
+        <li><a href="#php">PHP</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="content">
-
-    <div class="entry">
-      <h2>JavaScript</h2>      
-      <p>
+  <main>
+  <div id="content">
+    <article id="javascript" class="card">
+      <h2>JavaScript</h2>
+      <img src="images/logo_javascript.png" alt="logo_javascript" class="featured-image">
+      <p class="featured-text">
         JavaScript adalah salah satu bahasa pemrograman tingkat tinggi yang bersifat client-side. JavaScript merupakan salah
         satu teknologi inti dalam pengembangan sebuah web selain HTML dan CSS. JavaScript biasanya digunakan dalam membuat
         halaman web yang interaktif dan merupakan bagian penting dalam fungsionalitas sebuah web application. 
       </p>
-      <p>
+      <p class="featured-text">
         Javascript sangat populer di internet dan dapat berjalan di sebagian besar web browser populer seperti Google Chrome dan Mozilla Firefox.
         Dalam kurun waktu 20 tahun terakhir JavaScript menjadi salah satu bahasa pemrograman yang paling banyak digunakan di seluruh dunia.
       </p>
-      <br />
-      <h3>Sejarah</h3>
-      <p>
-        JavaScript pertama kali dikembangkan oleh Brendan Eich dari Netscape yang awalnya diberi nama LiveScript pada September
-        1995. Pada tahun 1996, JavaScript secara resmi disebut sebagai ECMAScript. JavaScript terus dikembangkan oleh komunitas
-        developer dari European Computer Manufacturers Association (ECMA). Pada tahun 1998, ECMAScript 2 resmi diluncurkan dan
-        ECMAScript 3 mulai diperkenalkan pada tahun 1999.
-      </p>        
-      <p>
-        Sampai sekarang Javascript terus dikembangkan hingga bisa digunakan di
-        berbagai perangkat seperti mobile device. Telah tercatat di tahun 2016 bahwa 92% website di seluruh dunia menggunakan
-        JavaScript.
-      </p>
-    </div>
+      <section>
+        <h3>Sejarah</h3>
+        <p class="featured-text">
+          JavaScript pertama kali dikembangkan oleh Brendan Eich dari Netscape yang awalnya diberi nama LiveScript pada September
+          1995. Pada tahun 1996, JavaScript secara resmi disebut sebagai ECMAScript. JavaScript terus dikembangkan oleh komunitas
+          developer dari European Computer Manufacturers Association (ECMA). Pada tahun 1998, ECMAScript 2 resmi diluncurkan dan
+          ECMAScript 3 mulai diperkenalkan pada tahun 1999.
+        </p>        
+        <p class="featured-text">
+          Sampai sekarang Javascript terus dikembangkan hingga bisa digunakan di
+          berbagai perangkat seperti mobile device. Telah tercatat di tahun 2016 bahwa 92% website di seluruh dunia menggunakan
+          JavaScript.
+        </p>
+      </section>
+    </article>
 
-    <div class="entry">
+    <article id="python" class="card">
       <h2>Python</h2>
-      <p>
+      <img src="images/logo_python.png" alt="logo_python" class="featured-image">
+      <p class="featured-text">
         Python adalah sebuah bahasa pemrograman yang dapat melakukan eksekusi sejumlah instruksi multiguna secara langsung
         (interpretatif) dengan metode orientasi objek. Filosofi perancangan yang berfokus pada tingkat keterbacaan kode
         menjadikan Python dapat digunakan untuk berbagai keperluan dalam pengembangan aplikasi perangkat lunak dan mampu
         berjalan di berbagai sistem operasi yang ada saat ini. 
       </p>
-      <p>  
+      <p class="featured-text">  
         Python mampu menjadikan program dengan skala sangat rumit menjadi
         mudah. Karena struktur dan syntax nya yang rapi dan mudah dipahami menjadikan Python relatif lebih mudah untuk
         dipelajari serta memiliki dukungan komunitas yang besar.
       </p>
-      <br />  
-      <h3>Sejarah</h3>
-      <p>
-        Python dikembangkan oleh Giudo van Rossum, yaitu seorang programmer yang berasal dari Amsterdam, Belanda. Dipublikasikan
-        pertama kali pada tahun 1990 dengan semboyan "Python is a programming language that lets you work quickly and integrate
-        systems more effectively." Selanjutnya pada tahun 2000 terdapat pembaharuan versi Python ke versi 3.
-      </p>
-      <p>
-        Hingga saat ini Python masih dikembangkan oleh Python Software Foundation. Python versi 3 adalah versi yang paling banyak digunakan saat
-        ini. Pemilihan nama Python sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama Mothy Python
-        Flying Circus yang merupakan acara sirkus favorit dari Guido van Rossum.
-      </p>
-    </div>
+      <section>
+        <h3>Sejarah</h3>
+        <p class="featured-text">
+          Python dikembangkan oleh Giudo van Rossum, yaitu seorang programmer yang berasal dari Amsterdam, Belanda. Dipublikasikan
+          pertama kali pada tahun 1990 dengan semboyan "Python is a programming language that lets you work quickly and integrate
+          systems more effectively." Selanjutnya pada tahun 2000 terdapat pembaharuan versi Python ke versi 3.
+        </p>
+        <p class="featured-text">
+          Hingga saat ini Python masih dikembangkan oleh Python Software Foundation. Python versi 3 adalah versi yang paling banyak digunakan saat
+          ini. Pemilihan nama Python sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama Mothy Python
+          Flying Circus yang merupakan acara sirkus favorit dari Guido van Rossum.
+        </p>
+      </section>
+    </article>
 
-    <div class="entry">
+    <article id="java" class="card">
       <h2>Java</h2>
-      <p>
+      <img src="images/logo_java.png" alt="logo_java" class="featured-image">
+      <p class="featured-text">
         Java adalah bahasa pemrograman yang dapat dijalankan di berbagai perangkat komputer termasuk telepon genggam. Java
         banyak mengadopsi syntax yang terdapat pada C dan C++ namun dengan model object yang lebih sederhana. Java merupakan
         salah satu bahasa pemrograman yang bersifat umum (general purpose) yang mampu berjalan di berbagai platform melalui Java
@@ -90,43 +96,45 @@
         pengembangan berbagai jenis perangkat lunak aplikasi seperti aplikasi native untuk smartphone dengan sistem operasi
         Android.
       </p>
-      <p>
+      <p class="featured-text">
         Java pun akrab dengan dunia saintifik dan akademik. Cukup banyak akademisi di Indonesia yang menggunakan Java
         sebagai alat bantu untuk menyelesaikan skripsi atau tugas akhir dengan berbagai topik yang didominasi kecerdasan buatan,
         data mining, enterprise architecture, aplikasi mobile, dan lainnya. Di dunia web development sendiri, Java memiliki
         berbagai web framework unggulan seperti Spring, Play Framework, Spark, Jakarta Struts, dan Java Server Pages.
       </p>
-      <br />
-      <h3>Sejarah</h3>
-      <p>
-        Bahasa Java merupakan sebuah bahasa pemrograman yang legendaris. Hampir semua mahasiswa Informatika pasti pernah belajar
-        dan membuat program sederhana menggunakan Java. Pada awalnya dibuat oleh James Gosling saat masih bergabung di Sun
-        Microsystems yang saat ini merupakan bagian dari Oracle dan java ini dirilis pada tahun 1995. 
-      </p>
-      <p>  
-        Nama Java ini diambil dari
-        kopi murni yang digiling langsung dari biji (kopi tubruk) kesukaan James Gosling. Konon kopi ini berasal dari Pulau
-        Jawa. Jadi nama bahasa pemrograman Java tidak lain berasal dari kata Jawa (bahasa Inggris untuk Jawa adalah Java). Sejak
-        saat itu logo atau icon dari bahasa pemrogaman java ditetapkan sebagai secangkir kopi yang terinspirasi dari "Java
-        Coffee". 
-      </p>
-      <p>
-        Sejak tahun 2010, Java diakuisisi dan diambil alih kepemilikannya oleh Oracle. Saat ini Java terus dikembangkan
-        dan menjadi podasi bagi berbagai bahasa pemrograman lain seperti Kotlin, Scala, Groovy, JRuby, Jython, dan yang lainnya
-        yang memanfaatkan Java Virtual Machine sebagai rumahnya. Menurut berbagai survey, Java selalu menempati posisi 5 besar
-        dari bahasa pemrograman yang paling banyak digunakan di dunia.
-      </p>
-    </div>
+      <section>
+        <h3>Sejarah</h3>
+        <p class="featured-text">
+          Bahasa Java merupakan sebuah bahasa pemrograman yang legendaris. Hampir semua mahasiswa Informatika pasti pernah belajar
+          dan membuat program sederhana menggunakan Java. Pada awalnya dibuat oleh James Gosling saat masih bergabung di Sun
+          Microsystems yang saat ini merupakan bagian dari Oracle dan java ini dirilis pada tahun 1995. 
+        </p>
+        <p class="featured-text">  
+          Nama Java ini diambil dari
+          kopi murni yang digiling langsung dari biji (kopi tubruk) kesukaan James Gosling. Konon kopi ini berasal dari Pulau
+          Jawa. Jadi nama bahasa pemrograman Java tidak lain berasal dari kata Jawa (bahasa Inggris untuk Jawa adalah Java). Sejak
+          saat itu logo atau icon dari bahasa pemrogaman java ditetapkan sebagai secangkir kopi yang terinspirasi dari "Java
+          Coffee". 
+        </p>
+        <p class="featured-text">
+          Sejak tahun 2010, Java diakuisisi dan diambil alih kepemilikannya oleh Oracle. Saat ini Java terus dikembangkan
+          dan menjadi podasi bagi berbagai bahasa pemrograman lain seperti Kotlin, Scala, Groovy, JRuby, Jython, dan yang lainnya
+          yang memanfaatkan Java Virtual Machine sebagai rumahnya. Menurut berbagai survey, Java selalu menempati posisi 5 besar
+          dari bahasa pemrograman yang paling banyak digunakan di dunia.
+        </p>
+      </section>
+    </article>
 
-    <div class="entry">
+    <article id="php" class="card">
       <h2>PHP</h2>
-      <p>
+      <img src="images/logo_php.png" alt="logo_php" class="featured-image">
+      <p class="featured-text">
         PHP: Hypertext Preprocessor merupakan bahasa pemrograman server-side. PHP disebut bahasa pemrograman server side karena
         PHP diproses pada komputer server. Hal ini berbeda dibandingkan dengan bahasa pemrograman client-side seperti JavaScript
         yang diproses pada web browser (client). Biasanya digunakan dalam pengembangan sistem manajemen konten (Content
         Manajemen System) seperti Wordpress, Joomla, dan Drupal. 
       </p>
-      <p>  
+      <p class="featured-text">  
         Selain itu juga sering digunakan untuk pengembangan back-end
         karena menyediakan fitur-fitur yang dapat mengakomodasi proses transfer informasi dari dan ke dalam database. Umumnya
         ditanamkan atau disisipkan ke dalam HTML untuk memprogram situs web dinamis. Selain itu, terdapat juga beberapa
@@ -134,7 +142,7 @@
         tersedia di internet untuk memudahkan proses pengembangan website menggunakan bahasa pemrograman PHP. Mayoritas website
         modern yang ada saat ini menggunakan framework PHP.
       </p>
-      <p>
+      <p class="featured-text">
         Sebelum ada PHP, pengembang kebanyakan menggunakan bahasa
         pemrograman HTML. Bahasa pemrograman ini sudah dapat membuat tampilan website, akan tetapi tampilan yang dihasilkan
         masih biasa saja. Biasa saja karena website masih bersifat statis atau tetap, tidak bisa menyesuaikan tampilan dengan
@@ -142,68 +150,116 @@
         dinamis. Dimana website dapat menyesuaikan tampilan sesuai dengan perangkat yang digunakan oleh pengguna. Tidak hanya
         itu, website juga dapat melakukan input output dengan database.
       </p>
-      <br />
-      <h3>Sejarah</h3>
-      <p>
-        Pada awalnya PHP merupakan singkatan dari Personal Home Page. Dibuat pertama kali oleh Rasmus Lerdorf pada tahun 1995.
-        Pada waktu itu, PHP masih bernama Form Interpreted (FI) yang wujudnya berupa sekumpulan skrip yang digunakan untuk
-        mengolah data formulir dari web. Selanjutnya Rasmus merilis kode sumber tersebut untuk umum dan menamakannya PHP/FI.
-        Dengan perilisan kode sumber ini menjadi sumber terbuka, maka banyak pemrogram yang tertarik untuk ikut mengembangkan
-        PHP.
-      </p>
-      <p>  
-        Pada November 1997, dirilis PHP/FI 2.0. Pada rilis ini, interpreter PHP sudah diimplementasikan dalam program C. Dalam
-        rilis ini disertakan juga modul-modul ekstensi yang meningkatkan kemampuan PHP/FI secara signifikan. Pada akhir tahun 1997, sebuah perusahaan bernama Zend menulis ulang interpreter PHP menjadi lebih bersih, lebih baik, dan
-        lebih cepat. Kemudian pada Juni 1998, perusahaan tersebut merilis interpreter baru untuk PHP dan meresmikan rilis
-        tersebut sebagai PHP 3.0 dan singkatan PHP diubah menjadi akronim berulang PHP: Hypertext Preprocessing.
-      </p>
-      <p>
-        Pada pertengahan tahun 1999, Zend merilis interpreter PHP baru dan rilis tersebut dikenal dengan PHP 4.0. PHP 4.0 adalah
-        versi PHP yang paling banyak dipakai pada awal abad ke-21. Versi ini banyak dipakai disebabkan kemampuannya untuk
-        membangun aplikasi web kompleks tetapi tetap memiliki kecepatan dan stabilitas yang tinggi.
-      </p>
-      <p>
-        Pada Juni 2004, Zend merilis PHP 5.0. Dalam versi ini, inti dari interpreter PHP mengalami perubahan besar. Versi ini
-        juga memasukkan model pemrograman berorientasi objek ke dalam PHP untuk menjawab perkembangan bahasa pemrograman ke arah
-        paradigma berorientasi objek. Peladen web bawaan ditambahkan pada versi 5.4 untuk mempermudah pengembang menjalankan
-        kode PHP tanpa menginstal peladen perangkat lunak.
-      </p>
-      <p>
-        Versi terbaru dan stabil dari bahasa pemograman PHP saat ini adalah versi 7.0.16 dan 7.1.2 yang resmi dirilis pada
-        tanggal 17 Februari 2017
-      </p>
-    </div>
+      <section>
+        <h3>Sejarah</h3>
+        <p class="featured-text">
+          Pada awalnya PHP merupakan singkatan dari Personal Home Page. Dibuat pertama kali oleh Rasmus Lerdorf pada tahun 1995.
+          Pada waktu itu, PHP masih bernama Form Interpreted (FI) yang wujudnya berupa sekumpulan skrip yang digunakan untuk
+          mengolah data formulir dari web. Selanjutnya Rasmus merilis kode sumber tersebut untuk umum dan menamakannya PHP/FI.
+          Dengan perilisan kode sumber ini menjadi sumber terbuka, maka banyak pemrogram yang tertarik untuk ikut mengembangkan
+          PHP.
+        </p>
+        <p class="featured-text">  
+          Pada November 1997, dirilis PHP/FI 2.0. Pada rilis ini, interpreter PHP sudah diimplementasikan dalam program C. Dalam
+          rilis ini disertakan juga modul-modul ekstensi yang meningkatkan kemampuan PHP/FI secara signifikan. Pada akhir tahun 1997, sebuah perusahaan bernama Zend menulis ulang interpreter PHP menjadi lebih bersih, lebih baik, dan
+          lebih cepat. Kemudian pada Juni 1998, perusahaan tersebut merilis interpreter baru untuk PHP dan meresmikan rilis
+          tersebut sebagai PHP 3.0 dan singkatan PHP diubah menjadi akronim berulang PHP: Hypertext Preprocessing.
+        </p>
+        <p class="featured-text">
+          Pada pertengahan tahun 1999, Zend merilis interpreter PHP baru dan rilis tersebut dikenal dengan PHP 4.0. PHP 4.0 adalah
+          versi PHP yang paling banyak dipakai pada awal abad ke-21. Versi ini banyak dipakai disebabkan kemampuannya untuk
+          membangun aplikasi web kompleks tetapi tetap memiliki kecepatan dan stabilitas yang tinggi.
+        </p>
+        <p class="featured-text">
+          Pada Juni 2004, Zend merilis PHP 5.0. Dalam versi ini, inti dari interpreter PHP mengalami perubahan besar. Versi ini
+          juga memasukkan model pemrograman berorientasi objek ke dalam PHP untuk menjawab perkembangan bahasa pemrograman ke arah
+          paradigma berorientasi objek. Peladen web bawaan ditambahkan pada versi 5.4 untuk mempermudah pengembang menjalankan
+          kode PHP tanpa menginstal peladen perangkat lunak.
+        </p>
+        <p class="featured-text">
+          Versi terbaru dan stabil dari bahasa pemograman PHP saat ini adalah versi 7.0.16 dan 7.1.2 yang resmi dirilis pada
+          tanggal 17 Februari 2017
+        </p>
+      </section>
+    </article>
+  </div>
 
-    <div class="links">
+  <aside>
+    <article class="profile card">
       
-      <div class="column"> <span class="title">Simple Feature Links</span>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">To do List Program</a></li>
-          <li><a href="WebCalculator/index.html">Simple Calculator</a></li>
-          <li><a href="WebBandung/index.html">Portfolio</a></li> 
-          <li><a href="https://github.com/martinputra/WebSubmission">My Repository</a></li>
-        </ul>
-      </div>
-      
-      <div class="column"> <span class="title">Contact Me</span>
-        <ul>
-          <li><a href="#">Email</a></li>
-          <li><a href="#">Whatsapp</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Telegram</a></li>
+      <header>
+        <h2>Martinus Pratama</h2>
+        <p>Junior Web Developer</p>
+        <figure>
+          <img src="images/profile.jpg" alt="profile_photo">
+          <figcaption>Martin</figcaption>
+        </figure>
+      </header>
+
+      <section>
+        <h3>Biodata Indentity</h3>
+
+        <table>
+          <tr>
+            <th>Gender</th>
+            <td>Male</td>
+          </tr>
+
+          <tr>
+            <th>Date of Birth</th>
+            <td>March 1<sup>st</sup> 1993</td>
+          </tr>
+
+          <tr>
+            <th>City</th>
+            <td>Semarang, Central Java</td>
+          </tr>
+
+          <tr>
+            <th>Nationality</th>
+            <td>Indonesia</td>
+          </tr>
           
-        </ul>
+          <tr>
+            <th>Telp.</th>
+            <td>+62 899 7868 547</td>
+          </tr>
+        </table>
+
+      </section>    
+    </article>
+
+    <article class="card">
+      <div class="column"> <span class="title">Simple Feature Links</span>
+        <section>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">To do List Program</a></li>
+            <li><a href="WebCalculator/index.html">Simple Calculator</a></li>
+            <li><a href="WebBandung/index.html">Portfolio</a></li>
+            <li><a href="https://github.com/martinputra/WebSubmission">My Repository</a></li>
+          </ul>
+        </section>
       </div>
+    
+      <div class="column"> <span class="title">Contact Me</span>
+        <section>
+          <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Telegram</a></li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  </aside>
 
-    </div>
+  </main>
 
-  </div>
-
-  <div class="footer">
-    <p>Designed by <a href="https://martinus-web.netlify.com/">Martinus Pratama Putra</a> |  &copy; 2020 All rights reserved.</p>
-  </div>
-
+  <footer>
+    <p>Web Designed by <a href="https://martinus-web.netlify.com/">Martinus Pratama</a> |  &copy; 2020, All rights reserved.</p>
+  </footer>
 </body>
 </html>
