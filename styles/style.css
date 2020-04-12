@@ -32,6 +32,10 @@ h2 {
 	padding-bottom: 10px;
 }
 
+a {
+    color: #fff;
+}
+
 .featured-text {
     text-indent: 3%;
     text-align: justify;
@@ -72,7 +76,7 @@ nav a:hover, nav a:active {
 nav li {
     display: inline;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .card {
